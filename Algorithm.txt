@@ -1,0 +1,34 @@
+
+
+1. **Initialization**
+   - Start with no accounts and a count of zero.
+
+2. **Menu Loop**
+   - Show a menu with options (create account, deposit, withdraw, check balance, exit).
+   - Let the user pick an option.
+
+3. **Create Account**
+   - Collect account details (account number, name, initial balance).
+   - Create a new account with this info and add it to the list.
+   - Increase the count.
+   - Confirm account creation.
+
+4. **Deposit**
+   - Ask for the account number and the amount to deposit.
+   - Find the account and add the amount to its balance.
+   - Confirm the deposit.
+
+5. **Withdraw**
+   - Ask for the account number and the amount to withdraw.
+   - Find the account and check if there's enough balance.
+   - If yes, deduct the amount; if not, show an error.
+
+6. **Check Balance**
+   - Ask for the account number.
+   - Find the account and display its details (number, name, balance).
+
+7. **Exit**
+   - If the user chooses to exit, end the program.
+
+8. **Repeat**
+   - After each operation, return to the menu for more actions.
